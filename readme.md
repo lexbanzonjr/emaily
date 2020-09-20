@@ -1,1 +1,0 @@
-Emaily is a survy web application. This application uses Node.js, passport.js, MongoDB, and React.

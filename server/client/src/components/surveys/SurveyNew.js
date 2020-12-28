@@ -4,12 +4,14 @@ import SurveyForm from './SurveyForm';
 class SurveyNew extends Component {
   state = {showFormReview: false};
 
-  render() {
+  renderContent() {
     return (
-      <div>
-        <SurveyForm />
-      </div>
+      <SurveyForm />
     );
+  }
+
+  render() {
+    return <div>{this.renderContent()}</div>;
   }
 }
 
